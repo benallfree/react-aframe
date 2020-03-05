@@ -1,12 +1,11 @@
 {
-  "name": "react-aframe",
+  "name": "reaframe",
   "version": "0.0.1",
   "description": "A-Frame React components",
   "scripts": {
     "build": "shx rm -rf es6/* && tsc"
   },
   "module": "./es6/index.js",
-  "main": "./dist/index.js",
   "author": "Ben Allfree",
   "license": "ISC",
   "repository": {
