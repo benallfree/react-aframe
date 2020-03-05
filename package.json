@@ -1,0 +1,36 @@
+{
+  "name": "react-aframe",
+  "version": "0.0.1",
+  "description": "A-Frame React components",
+  "scripts": {
+    "build": "shx rm -rf es6/* && tsc"
+  },
+  "module": "./es6/index.js",
+  "main": "./dist/index.js",
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benallfree/react-aframe.git"
+  },
+  "keywords": [
+    "react",
+    "aframe"
+  ],
+  "bugs": {
+    "url": "https://github.com/benallfree/react-aframe/issues"
+  },
+  "homepage": "https://github.com/benallfree/react-aframe#readme",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "prettier": "^1.19.1",
+    "shx": "^0.3.2",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  }
+}
