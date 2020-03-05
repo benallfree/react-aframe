@@ -1,13 +1,14 @@
-import React from 'react'
-import { GpsLocation } from './GpsLocation'
-import { Color } from './Color'
-export const Box: React.FC<{
-  color: Color
-  'gps-entity-place': GpsLocation
-}> = ({ children, ...rest }) => {
-  //     <a-box
-  //     color="yellow"
-  //     gps-entity-place="latitude: 40.469836; longitude: -3.446026"
-  //   />
+import * as React from 'react'
+import { Position, Rotation, Color, GpsLocation } from './@types'
+
+export interface BoxParams {
+  position?: Position
+  rotation?: Rotation
+  color?: Color
+  shadow?: boolean
+  'gps-entity-place'?: GpsLocation
+}
+
+export const Box: React.FC<BoxParams> = ({ children, ...rest }) => {
   return <a-box {...rest}>{children}</a-box>
 }

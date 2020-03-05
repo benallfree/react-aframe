@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "A-Frame React components",
   "scripts": {
-    "build": "shx rm -rf es6/* && tsc"
+    "build": "shx rm -rf es6/* && tsc",
+    "watch": "chokidar -d 2000 \"./src\" -c \"npm run build\""
   },
+  "main": "./es6/index.js",
   "module": "./es6/index.js",
   "author": "Ben Allfree",
   "license": "ISC",
@@ -27,6 +29,7 @@
   "devDependencies": {
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
+    "chokidar-cli": "^2.1.0",
     "prettier": "^1.19.1",
     "shx": "^0.3.2",
     "tslib": "^1.11.1",
