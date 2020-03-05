@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Position, Radius, Height, Color } from './@types'
+import { Position, Radius, Height, Color } from './typings'
 
 export interface CylinderParams {
   position?: Position

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Color } from './@types';
+import { Color } from './typings';
 export interface SceneParams {
     renderer?: {
         antialias?: boolean;

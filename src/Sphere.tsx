@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Rotation, Color, Radius } from './@types'
+import { Rotation, Color, Radius } from './typings'
 
 export interface SphereParams {
   position?: Position

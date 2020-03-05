@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Position, Rotation, Width, Height, Color } from './@types'
+import { Position, Rotation, Width, Height, Color } from './typings'
 
 export interface PlaneParams {
   position?: Position
