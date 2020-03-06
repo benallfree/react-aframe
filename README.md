@@ -1,4 +1,4 @@
-# Reframe: React + A-Frame
+# Reaframe: React + A-Frame
 
 This package introduces A-Frame components for React.
 
